@@ -142,15 +142,31 @@ nav a {
     border-radius: 10px;
 }
 
+.sidebar-right-logo {
+    width: 100%;
+    height: 167px;
+    position: relative;
+}
+
+.sidebar-right-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 .sidebar h3 {
     color: black;
     padding: 10px 0;
 }
 
+.sidebar p {
+    color: rgb(177, 177, 177);
+}
 
 
-.center {
-    background-color: rgb(171, 207, 231);
+
+.center {;
     float: left;
     width: calc(((100% / 6) * 4) - 10px);
     margin-right: 5px;
@@ -158,6 +174,31 @@ nav a {
     margin-bottom: 20px;
 
 }
+
+.banner-center {
+    position: relative;
+    width: 100%;
+    height: 167px;
+
+}
+
+.banner-center img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.center h3 {
+    color: black;
+    padding: 10px 0;
+}
+
+.center p {
+    color: rgb(177, 177, 177);
+}
+
 
 
 /* /main  */
