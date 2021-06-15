@@ -21,6 +21,13 @@ body {
     clear: both;
 }
 
+.overlay {
+    position: absolute;
+    inset: 0;    
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
 
 /* /common */
 
@@ -71,12 +78,7 @@ nav a {
 
 }
 
-.overlay {
-    position: absolute;
-    inset: 0;    
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
-}
+
 
 .banner-img {
     width: 100%;
@@ -123,16 +125,28 @@ nav a {
 }
 
 .sidebar {
-    background-color: rgb(171, 207, 231);
     width: calc(100% / 6);
     margin-bottom: 20px;
-    /* margin-right: 5px;
-    margin-left: 5px; */
+    float: left; 
 }
 
-.left {
-    float: left;
+.sidebar-left-logo{
+    width: 100%;
+    position: relative;
+
 }
+
+.sidebar-left-logo img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.sidebar h3 {
+    color: black;
+    padding: 10px 0;
+}
+
 
 
 .center {
