@@ -166,7 +166,7 @@ nav a {
 
 
 
-.center {;
+.center {
     float: left;
     width: calc(((100% / 6) * 4) - 10px);
     margin-right: 5px;
@@ -206,8 +206,16 @@ nav a {
 /* footer  */
 
 .footer {
-    background-color: rgb(136, 1, 254);
     margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 10px;
 }
+
+p > span {
+    color: red;
+    font-size: 15px;
+}
+
 
 /* /footer  */
