@@ -6,6 +6,9 @@
 
 /* common */
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 
 .container {
     width: 80%;
@@ -23,20 +26,44 @@
 
 /* header  */
 
-.header {
-    background-color: rgb(229, 121, 230);
+header {
     margin-bottom: 30px;
 }
+
+#logo {
+    width: 17%;
+
+}
+
+#logo img {
+    padding: 10px 10px;
+    height: 100px;
+    border-right: 1px solid #CBC2BE;
+    
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(177, 177, 177);
+    text-transform: uppercase;
+}
+
+
+/* /header  */
+
+/* main  */
 
 .main-header {
     background-color: rgb(171, 207, 231);
     margin-bottom: 20px;
 
 }
-
-/* /header  */
-
-/* main  */
 
 .main-top {
     background-color: rgb(225, 214, 122);
